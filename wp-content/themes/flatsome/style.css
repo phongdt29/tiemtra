@@ -18,3 +18,77 @@ License URI:          http://themeforest.net/licenses
 All custom CSS should be added to Flatsome > Advanced > Custom CSS,
 or in the style.css of a Child Theme.
 ***************/
+.header-top {
+    background-color: #40974b !important;
+}
+
+.category-page-row form.searchform, #shop-sidebar form.searchform {
+    background: none;
+    border-radius: 8px;
+    border: 1px solid var(--primary-color-3);
+}
+
+.category-page-row .is-divider, #shop-sidebar .is-divider {
+    width: 100% !important;
+    max-width: 100%;
+    height: 2px;
+    background-color: var(--primary-color-3);
+}
+
+.product-small.box {
+    background-color: #ffffff;
+    border: 1.2px solid #4f8d5c;
+    border-radius: 30px;
+    margin: 0 0px;
+    padding-bottom: 0px;
+    position: relative;
+    padding-bottom: 21px;
+}
+
+.product_cat-tra-moi .product-small.box::before {
+    content: '';
+    position: absolute;
+    background-image: url(/wp-content/uploads/2023/05/new.png);
+    z-index: 1;
+    top: 0;
+    width: 64px;
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 0;
+}
+.box-text.box-text-products {
+    text-align: center;
+    padding-bottom: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-top: 1px solid var(--primary-color);
+    position: relative;
+    padding-top: 6px;
+}
+
+span.woocommerce-Price-amount.amount {
+    font-size: 1.4em;
+    color: var(--primary-color);
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+}
+
+.box-image {
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+span.amount {
+    white-space: nowrap;
+    color: #111;
+    font-weight: bold;
+}
+.product-small.box .product-type {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+.badge-container {
+    margin: 30px 0 0 0;
+}

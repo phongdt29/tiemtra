@@ -135,3 +135,15 @@ span.amount {
     left: calc(50% - 21px);
     transition: .2s;
 }
+
+@font-face {
+    font-family: "UTMYenTu";
+    src: url("https://db.onlinewebfonts.com/t/3529347f039594a38ca454747f73565a.woff2") format("woff2"),
+        url("https://db.onlinewebfonts.com/t/3529347f039594a38ca454747f73565a.woff") format("woff"),
+        url("https://db.onlinewebfonts.com/t/3529347f039594a38ca454747f73565a.ttf") format("truetype");
+}
+
+
+.UTMYenTu {
+    font-family: UTMYenTu;
+}

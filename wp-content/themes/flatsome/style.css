@@ -103,6 +103,18 @@ span.woocommerce-Price-amount.amount {
     background-repeat: no-repeat;
     right: 0;
 }
+.box-text-products::after {
+    content: '';
+    background: url(https: //www.tiemtraannhien.vn/wp-content/uploads/2023/04/vien.png);
+    bottom: -78px;
+    left: 50%;
+    position: absolute;
+    width: 105px;
+    height: 57px;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    margin-left: -39px;
+}
 .box-image {
     position: relative;
     height: auto;
@@ -120,6 +132,13 @@ span.amount {
 }
 .badge-container {
     margin: 30px 0 0 0;
+}
+
+@font-face {
+    font-family: "fontAwesome";
+    src: url("https: //cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css") format("woff2"),
+        url("https://db.onlinewebfonts.com/t/3529347f039594a38ca454747f73565a.woff") format("woff"),
+        url("https://db.onlinewebfonts.com/t/3529347f039594a38ca454747f73565a.ttf") format("truetype");
 }
 
 .add-to-cart-button::before {
@@ -142,8 +161,14 @@ span.amount {
         url("https://db.onlinewebfonts.com/t/3529347f039594a38ca454747f73565a.woff") format("woff"),
         url("https://db.onlinewebfonts.com/t/3529347f039594a38ca454747f73565a.ttf") format("truetype");
 }
-
-
+.title-2 {
+    font-size: 4em;
+    font-weight: 500;
+    color: #1F1F1F;
+    margin-top: -35px;
+    margin-bottom: 0;
+    line-height: .9;
+}
 .UTMYenTu {
     font-family: UTMYenTu;
 }

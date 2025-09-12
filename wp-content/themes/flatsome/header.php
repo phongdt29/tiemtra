@@ -8,6 +8,8 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 	<?php wp_head(); ?>
+	<link rel='stylesheet' id='font-awesome-official-css' href='https://use.fontawesome.com/releases/v6.3.0/css/all.css' type='text/css' media='all' integrity="sha384-nYX0jQk7JxCp1jdj3j2QdJbEJaTvTlhexnpMjwIkYQLdk9ZE3/g8CBw87XP2N0pR" crossorigin="anonymous" />
+<link rel='stylesheet' id='flatsome-main-css' href='https://www.tiemtraannhien.vn/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.14.3' type='text/css' media='all' />
 </head>
 
 <body <?php body_class(); ?>>

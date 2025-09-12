@@ -44,7 +44,22 @@ or in the style.css of a Child Theme.
     position: relative;
     padding-bottom: 21px;
 }
+.custom-category .box-text-products::after {
+    bottom: -78.9px;
+}
 
+.box-text-products::after {
+    content: '';
+    background: url(https://www.tiemtraannhien.vn/wp-content/uploads/2023/04/vien.png);
+    bottom: -78px;
+    left: 50%;
+    position: absolute;
+    width: 105px;
+    height: 57px;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    margin-left: -39px;
+}
 .product_cat-tra-moi .product-small.box::before {
     content: '';
     position: absolute;
@@ -81,7 +96,7 @@ span.woocommerce-Price-amount.amount {
 
 .box-text-products::after {
     content: '';
-    background: url(ttps://www.tiemtraannhien.vn/wp-content/uploads/2023/04/vien.png);
+    background: url(https://www.tiemtraannhien.vn/wp-content/uploads/2023/04/vien.png);
     bottom: -78px;
     left: 50%;
     position: absolute;
@@ -171,4 +186,61 @@ span.amount {
 }
 .UTMYenTu {
     font-family: UTMYenTu;
+}
+.star-rating{
+    display: none !important;
+}
+.quick-view.quick-view-added{
+    display: none !important;
+}
+.category-page-row .is-divider, #shop-sidebar .is-divider {
+    width: 100% !important;
+    max-width: 100%;
+    height: 2px;
+    background-color: #64ae6d;
+}
+.title-1 h1{
+    color: var(--primary-color);
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #ffffff;
+}
+.button.primary::before {
+    border: 1px dashed #64ae6d !important;
+}
+
+.meal-section .flickity-prev-next-button {
+    background: #64ae6d;
+    height: 60px;
+    width: 30px;
+}
+.slider-nav-reveal .flickity-prev-next-button.previous {
+    background: #64ae6d;
+    height: 60px;
+    width: 30px;
+}
+.slider-nav-reveal .flickity-prev-next-button.next{
+    background: #64ae6d;
+    height: 60px;
+    width: 30px;
+}
+
+.slider-nav-reveal .flickity-prev-next-button.next {
+    border-radius: 0px 25px 25px 0px;
+}
+
+.slider-nav-reveal .flickity-prev-next-button.previous {
+    border-radius: 25px 0px 0px 25px;
+}
+
+.meal-section button.flickity-button.flickity-prev-next-button.next {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.meal-section .slider-nav-push:not(.slider-nav-reveal) .flickity-prev-next-button {
+    margin-top: -3%;
+}
+
+button.flickity-button.flickity-prev-next-button.next {
+    margin-left: 1%;
 }
